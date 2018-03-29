@@ -8,6 +8,14 @@ authors: jakimfett
 summary: Things to know before venturing on switter.at  
 status: draft  
 
+# Unencrypted Data Warning
+Because Mastodon data isn't encrypted, everyone on the internet will eventually have your data.
+
+Sorry. Not much we can do, except encrypt everything, and OpenPGP is a bit unwieldy.
+
+We'll eliminate this problem as soon as we can.
+
+# Zero Privacy  
 Mastodon allows an admin to read all of your private messages.
 (Questions about why? Discussion link(s) and Github/issues page.)
 
@@ -27,6 +35,16 @@ By using federation, we connect with other _instances_, which are other servers 
 
 Federation allows us to all talk to eachother, but have our own rules internally.
 It's like a pool party on the friendly side of the street.
+
+Federation also adds some very real dangers that you should be aware of.  
+
+## federated point of failure
+When Facebook/Twitter/etc get hacked, everyone knows about it eventually.  
+
+Someone cracking open Facebook is big news.  
+You might be reading this thanks to publicity of that sort.  
+
+Unfortunately, on Mastodon, any server that your server federates with retains some data on you, so if _any_ of the Mastodon instances get hacked (or are operated by malicious individuals, eg law enforcement or a nation/state actor), your data is exposed, and you may never know.
 
 ## privacy of the public/private/unlisted/direct setting
 A public post can be seen by anyone with a web browser.
