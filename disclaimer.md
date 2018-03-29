@@ -1,12 +1,12 @@
-title: disclaimer and legal
-date: 2018-03-29 00:57
-modified: 2018-03-29 00:57
-category: legal
-tags: consent, intro
-slug: disclaimer
-authors: jakimfett
-summary: Things to know before venturing on switter.at
-status: draft
+title: disclaimer and legal  
+date: 2018-03-29 00:57  
+modified: 2018-03-29 00:57  
+category: legal  
+tags: consent, intro  
+slug: disclaimer  
+authors: jakimfett  
+summary: Things to know before venturing on switter.at  
+status: draft  
 
 Mastodon allows an admin to read all of your private messages.
 (Questions about why? Discussion link(s) and Github/issues page.)
